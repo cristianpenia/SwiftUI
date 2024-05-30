@@ -9,7 +9,25 @@ import SwiftUI
 
 struct Images: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        // mode 1
+        // como importar
+        // como usarla
+        // como debugear
+        
+//        Image("youtube")
+//            .renderingMode(.template)
+//            .resizable() // ocupa todo el espacio que tengas
+//            .scaledToFit() // ajusta al ancho des espacio disponible
+//            .frame(width: 96, height: 68)
+//            .foregroundStyle(.blue)
+        
+        
+        // mode 2
+        // como crear un patron
+        
+        Image("youtube")
+            .resizable(resizingMode: .tile)
+        
     }
 }
 

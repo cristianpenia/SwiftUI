@@ -75,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6A22CC82C09257600460E0F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6A598082C091C8B00C387E9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		A6A597F82C091C8600C387E9 = {
 			isa = PBXGroup;
 			children = (
@@ -139,21 +147,12 @@
 			path = Chapters;
 			sourceTree = "<group>";
 		};
-		A6A598332C09233200C387E9 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				A6A598082C091C8B00C387E9 /* Assets.xcassets */,
-			);
-			name = Resources;
-			path = ../Resources;
-			sourceTree = "<group>";
-		};
 		A6A598342C09234900C387E9 /* Front */ = {
 			isa = PBXGroup;
 			children = (
 				A6A598062C091C8600C387E9 /* ContentView.swift */,
 				A6A5982E2C09223F00C387E9 /* Chapters */,
-				A6A598332C09233200C387E9 /* Resources */,
+				A6A22CC82C09257600460E0F /* Resources */,
 			);
 			path = Front;
 			sourceTree = "<group>";
