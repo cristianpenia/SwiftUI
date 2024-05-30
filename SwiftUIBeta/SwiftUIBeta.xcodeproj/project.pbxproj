@@ -99,9 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				A6A598042C091C8600C387E9 /* SwiftUIBetaApp.swift */,
-				A6A598062C091C8600C387E9 /* ContentView.swift */,
-				A6A5982E2C09223F00C387E9 /* Chapters */,
-				A6A598082C091C8B00C387E9 /* Assets.xcassets */,
+				A6A598342C09234900C387E9 /* Front */,
 				A6A5980A2C091C8B00C387E9 /* Preview Content */,
 			);
 			path = SwiftUIBeta;
@@ -139,6 +137,25 @@
 				A6A5982F2C09226100C387E9 /* Images.swift */,
 			);
 			path = Chapters;
+			sourceTree = "<group>";
+		};
+		A6A598332C09233200C387E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6A598082C091C8B00C387E9 /* Assets.xcassets */,
+			);
+			name = Resources;
+			path = ../Resources;
+			sourceTree = "<group>";
+		};
+		A6A598342C09234900C387E9 /* Front */ = {
+			isa = PBXGroup;
+			children = (
+				A6A598062C091C8600C387E9 /* ContentView.swift */,
+				A6A5982E2C09223F00C387E9 /* Chapters */,
+				A6A598332C09233200C387E9 /* Resources */,
+			);
+			path = Front;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
