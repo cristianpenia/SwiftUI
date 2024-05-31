@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A6A22CCA2C0951AD00460E0F /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A22CC92C0951AD00460E0F /* Icon.swift */; };
 		A6A22CCC2C09732A00460E0F /* PWState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A22CCB2C09732A00460E0F /* PWState.swift */; };
+		A6A22CCE2C0A5B0600460E0F /* ExampleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A22CCD2C0A5B0600460E0F /* ExampleLabel.swift */; };
 		A6A598052C091C8600C387E9 /* SwiftUIBetaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A598042C091C8600C387E9 /* SwiftUIBetaApp.swift */; };
 		A6A598072C091C8600C387E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A598062C091C8600C387E9 /* ContentView.swift */; };
 		A6A598092C091C8B00C387E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A598082C091C8B00C387E9 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		A6A22CC92C0951AD00460E0F /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 		A6A22CCB2C09732A00460E0F /* PWState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWState.swift; sourceTree = "<group>"; };
+		A6A22CCD2C0A5B0600460E0F /* ExampleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleLabel.swift; sourceTree = "<group>"; };
 		A6A598012C091C8600C387E9 /* SwiftUIBeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6A598042C091C8600C387E9 /* SwiftUIBetaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBetaApp.swift; sourceTree = "<group>"; };
 		A6A598062C091C8600C387E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				A6A5982F2C09226100C387E9 /* Images.swift */,
 				A6A22CC92C0951AD00460E0F /* Icon.swift */,
 				A6A22CCB2C09732A00460E0F /* PWState.swift */,
+				A6A22CCD2C0A5B0600460E0F /* ExampleLabel.swift */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				A6A22CCC2C09732A00460E0F /* PWState.swift in Sources */,
 				A6A598302C09226100C387E9 /* Images.swift in Sources */,
 				A6A22CCA2C0951AD00460E0F /* Icon.swift in Sources */,
+				A6A22CCE2C0A5B0600460E0F /* ExampleLabel.swift in Sources */,
 				A6A598322C09229400C387E9 /* StackViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
