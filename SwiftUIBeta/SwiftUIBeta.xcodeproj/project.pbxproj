@@ -13,6 +13,7 @@
 		A6A22CD02C0A5C2B00460E0F /* ExampleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A22CCF2C0A5C2B00460E0F /* ExampleText.swift */; };
 		A6A22CD42C0A5EFB00460E0F /* ExampleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A22CD32C0A5EFB00460E0F /* ExampleButton.swift */; };
 		A6A22CD62C0A61E000460E0F /* ExampleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A22CD52C0A61E000460E0F /* ExampleTextField.swift */; };
+		A6A22CD82C0A647800460E0F /* ExampleTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A22CD72C0A647800460E0F /* ExampleTextEditor.swift */; };
 		A6A598052C091C8600C387E9 /* SwiftUIBetaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A598042C091C8600C387E9 /* SwiftUIBetaApp.swift */; };
 		A6A598072C091C8600C387E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A598062C091C8600C387E9 /* ContentView.swift */; };
 		A6A598092C091C8B00C387E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A598082C091C8B00C387E9 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		A6A22CCF2C0A5C2B00460E0F /* ExampleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleText.swift; sourceTree = "<group>"; };
 		A6A22CD32C0A5EFB00460E0F /* ExampleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleButton.swift; sourceTree = "<group>"; };
 		A6A22CD52C0A61E000460E0F /* ExampleTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTextField.swift; sourceTree = "<group>"; };
+		A6A22CD72C0A647800460E0F /* ExampleTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTextEditor.swift; sourceTree = "<group>"; };
 		A6A598012C091C8600C387E9 /* SwiftUIBeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6A598042C091C8600C387E9 /* SwiftUIBetaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBetaApp.swift; sourceTree = "<group>"; };
 		A6A598062C091C8600C387E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				A6A22CCF2C0A5C2B00460E0F /* ExampleText.swift */,
 				A6A22CD32C0A5EFB00460E0F /* ExampleButton.swift */,
 				A6A22CD52C0A61E000460E0F /* ExampleTextField.swift */,
+				A6A22CD72C0A647800460E0F /* ExampleTextEditor.swift */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				A6A598302C09226100C387E9 /* Images.swift in Sources */,
 				A6A22CD42C0A5EFB00460E0F /* ExampleButton.swift in Sources */,
 				A6A22CCA2C0951AD00460E0F /* Icon.swift in Sources */,
+				A6A22CD82C0A647800460E0F /* ExampleTextEditor.swift in Sources */,
 				A6A22CD02C0A5C2B00460E0F /* ExampleText.swift in Sources */,
 				A6A22CCE2C0A5B0600460E0F /* ExampleLabel.swift in Sources */,
 				A6A598322C09229400C387E9 /* StackViews.swift in Sources */,
