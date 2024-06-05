@@ -10,6 +10,7 @@
 		A69884912C10017E00170E90 /* ExampleDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69884902C10017E00170E90 /* ExampleDatePicker.swift */; };
 		A69884932C10044800170E90 /* ExampleColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69884922C10044800170E90 /* ExampleColorPicker.swift */; };
 		A69884952C10053A00170E90 /* ExampleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69884942C10053A00170E90 /* ExampleProgressView.swift */; };
+		A69884972C10081B00170E90 /* ExampleLInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69884962C10081B00170E90 /* ExampleLInk.swift */; };
 		A6A22CCA2C0951AD00460E0F /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A22CC92C0951AD00460E0F /* Icon.swift */; };
 		A6A22CCC2C09732A00460E0F /* PWState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A22CCB2C09732A00460E0F /* PWState.swift */; };
 		A6A22CCE2C0A5B0600460E0F /* ExampleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A22CCD2C0A5B0600460E0F /* ExampleLabel.swift */; };
@@ -49,6 +50,7 @@
 		A69884902C10017E00170E90 /* ExampleDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleDatePicker.swift; sourceTree = "<group>"; };
 		A69884922C10044800170E90 /* ExampleColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleColorPicker.swift; sourceTree = "<group>"; };
 		A69884942C10053A00170E90 /* ExampleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProgressView.swift; sourceTree = "<group>"; };
+		A69884962C10081B00170E90 /* ExampleLInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleLInk.swift; sourceTree = "<group>"; };
 		A6A22CC92C0951AD00460E0F /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 		A6A22CCB2C09732A00460E0F /* PWState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWState.swift; sourceTree = "<group>"; };
 		A6A22CCD2C0A5B0600460E0F /* ExampleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleLabel.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				A69884902C10017E00170E90 /* ExampleDatePicker.swift */,
 				A69884922C10044800170E90 /* ExampleColorPicker.swift */,
 				A69884942C10053A00170E90 /* ExampleProgressView.swift */,
+				A69884962C10081B00170E90 /* ExampleLInk.swift */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				A6A22CD62C0A61E000460E0F /* ExampleTextField.swift in Sources */,
 				A69884932C10044800170E90 /* ExampleColorPicker.swift in Sources */,
 				A6A598072C091C8600C387E9 /* ContentView.swift in Sources */,
+				A69884972C10081B00170E90 /* ExampleLInk.swift in Sources */,
 				A69884912C10017E00170E90 /* ExampleDatePicker.swift in Sources */,
 				A6A598052C091C8600C387E9 /* SwiftUIBetaApp.swift in Sources */,
 				A6A22CCC2C09732A00460E0F /* PWState.swift in Sources */,
