@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A69884912C10017E00170E90 /* ExampleDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69884902C10017E00170E90 /* ExampleDatePicker.swift */; };
 		A6A22CCA2C0951AD00460E0F /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A22CC92C0951AD00460E0F /* Icon.swift */; };
 		A6A22CCC2C09732A00460E0F /* PWState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A22CCB2C09732A00460E0F /* PWState.swift */; };
 		A6A22CCE2C0A5B0600460E0F /* ExampleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A22CCD2C0A5B0600460E0F /* ExampleLabel.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A69884902C10017E00170E90 /* ExampleDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleDatePicker.swift; sourceTree = "<group>"; };
 		A6A22CC92C0951AD00460E0F /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 		A6A22CCB2C09732A00460E0F /* PWState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWState.swift; sourceTree = "<group>"; };
 		A6A22CCD2C0A5B0600460E0F /* ExampleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleLabel.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				A6A22CD32C0A5EFB00460E0F /* ExampleButton.swift */,
 				A6A22CD52C0A61E000460E0F /* ExampleTextField.swift */,
 				A6A22CD72C0A647800460E0F /* ExampleTextEditor.swift */,
+				A69884902C10017E00170E90 /* ExampleDatePicker.swift */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			files = (
 				A6A22CD62C0A61E000460E0F /* ExampleTextField.swift in Sources */,
 				A6A598072C091C8600C387E9 /* ContentView.swift in Sources */,
+				A69884912C10017E00170E90 /* ExampleDatePicker.swift in Sources */,
 				A6A598052C091C8600C387E9 /* SwiftUIBetaApp.swift in Sources */,
 				A6A22CCC2C09732A00460E0F /* PWState.swift in Sources */,
 				A6A598302C09226100C387E9 /* Images.swift in Sources */,
