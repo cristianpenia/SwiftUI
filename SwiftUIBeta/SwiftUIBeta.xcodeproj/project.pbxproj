@@ -35,6 +35,7 @@
 		A6A598222C091C8B00C387E9 /* SwiftUIBetaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A598212C091C8B00C387E9 /* SwiftUIBetaUITestsLaunchTests.swift */; };
 		A6A598302C09226100C387E9 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A5982F2C09226100C387E9 /* Images.swift */; };
 		A6A598322C09229400C387E9 /* StackViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A598312C09229400C387E9 /* StackViews.swift */; };
+		A6D7A8862C18F45200E2D830 /* ExampleFullScreenCoverAndSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D7A8852C18F45200E2D830 /* ExampleFullScreenCoverAndSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		A6A598212C091C8B00C387E9 /* SwiftUIBetaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBetaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A6A5982F2C09226100C387E9 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		A6A598312C09229400C387E9 /* StackViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViews.swift; sourceTree = "<group>"; };
+		A6D7A8852C18F45200E2D830 /* ExampleFullScreenCoverAndSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFullScreenCoverAndSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 				A675DD0E2C18BA0B0006B421 /* ExampleList.swift */,
 				A675DD132C18C7EC0006B421 /* ExampleNavigation.swift */,
 				A675DD152C18CCCE0006B421 /* ExampleTabView.swift */,
+				A6D7A8852C18F45200E2D830 /* ExampleFullScreenCoverAndSheet.swift */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 				A675DD0F2C18BA0B0006B421 /* ExampleList.swift in Sources */,
 				A675DD142C18C7EC0006B421 /* ExampleNavigation.swift in Sources */,
 				A6A598322C09229400C387E9 /* StackViews.swift in Sources */,
+				A6D7A8862C18F45200E2D830 /* ExampleFullScreenCoverAndSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
