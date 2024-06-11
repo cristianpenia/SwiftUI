@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A675DD0D2C18B3650006B421 /* ExampleForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675DD0C2C18B3650006B421 /* ExampleForm.swift */; };
+		A675DD0F2C18BA0B0006B421 /* ExampleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675DD0E2C18BA0B0006B421 /* ExampleList.swift */; };
 		A69884912C10017E00170E90 /* ExampleDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69884902C10017E00170E90 /* ExampleDatePicker.swift */; };
 		A69884932C10044800170E90 /* ExampleColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69884922C10044800170E90 /* ExampleColorPicker.swift */; };
 		A69884952C10053A00170E90 /* ExampleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69884942C10053A00170E90 /* ExampleProgressView.swift */; };
@@ -51,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A675DD0C2C18B3650006B421 /* ExampleForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleForm.swift; sourceTree = "<group>"; };
+		A675DD0E2C18BA0B0006B421 /* ExampleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleList.swift; sourceTree = "<group>"; };
 		A69884902C10017E00170E90 /* ExampleDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleDatePicker.swift; sourceTree = "<group>"; };
 		A69884922C10044800170E90 /* ExampleColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleColorPicker.swift; sourceTree = "<group>"; };
 		A69884942C10053A00170E90 /* ExampleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProgressView.swift; sourceTree = "<group>"; };
@@ -188,6 +192,8 @@
 				A698849A2C101ACC00170E90 /* ExampleStepper.swift */,
 				A698849C2C101C8000170E90 /* ExampleSlider.swift */,
 				A698849E2C101F8700170E90 /* ExampleLazyVGrigLavzyHGrild.swift */,
+				A675DD0C2C18B3650006B421 /* ExampleForm.swift */,
+				A675DD0E2C18BA0B0006B421 /* ExampleList.swift */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -336,6 +342,7 @@
 				A69884932C10044800170E90 /* ExampleColorPicker.swift in Sources */,
 				A6A598072C091C8600C387E9 /* ContentView.swift in Sources */,
 				A69884972C10081B00170E90 /* ExampleLInk.swift in Sources */,
+				A675DD0D2C18B3650006B421 /* ExampleForm.swift in Sources */,
 				A69884912C10017E00170E90 /* ExampleDatePicker.swift in Sources */,
 				A6A598052C091C8600C387E9 /* SwiftUIBetaApp.swift in Sources */,
 				A6A22CCC2C09732A00460E0F /* PWState.swift in Sources */,
@@ -350,6 +357,7 @@
 				A69884992C100B0C00170E90 /* ExampleToggle.swift in Sources */,
 				A6A22CD02C0A5C2B00460E0F /* ExampleText.swift in Sources */,
 				A6A22CCE2C0A5B0600460E0F /* ExampleLabel.swift in Sources */,
+				A675DD0F2C18BA0B0006B421 /* ExampleList.swift in Sources */,
 				A6A598322C09229400C387E9 /* StackViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
