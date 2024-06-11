@@ -10,6 +10,7 @@
 		A675DD0D2C18B3650006B421 /* ExampleForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675DD0C2C18B3650006B421 /* ExampleForm.swift */; };
 		A675DD0F2C18BA0B0006B421 /* ExampleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675DD0E2C18BA0B0006B421 /* ExampleList.swift */; };
 		A675DD142C18C7EC0006B421 /* ExampleNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675DD132C18C7EC0006B421 /* ExampleNavigation.swift */; };
+		A675DD162C18CCCE0006B421 /* ExampleTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675DD152C18CCCE0006B421 /* ExampleTabView.swift */; };
 		A69884912C10017E00170E90 /* ExampleDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69884902C10017E00170E90 /* ExampleDatePicker.swift */; };
 		A69884932C10044800170E90 /* ExampleColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69884922C10044800170E90 /* ExampleColorPicker.swift */; };
 		A69884952C10053A00170E90 /* ExampleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69884942C10053A00170E90 /* ExampleProgressView.swift */; };
@@ -57,6 +58,7 @@
 		A675DD0C2C18B3650006B421 /* ExampleForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleForm.swift; sourceTree = "<group>"; };
 		A675DD0E2C18BA0B0006B421 /* ExampleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleList.swift; sourceTree = "<group>"; };
 		A675DD132C18C7EC0006B421 /* ExampleNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleNavigation.swift; sourceTree = "<group>"; };
+		A675DD152C18CCCE0006B421 /* ExampleTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTabView.swift; sourceTree = "<group>"; };
 		A69884902C10017E00170E90 /* ExampleDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleDatePicker.swift; sourceTree = "<group>"; };
 		A69884922C10044800170E90 /* ExampleColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleColorPicker.swift; sourceTree = "<group>"; };
 		A69884942C10053A00170E90 /* ExampleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProgressView.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 				A675DD0C2C18B3650006B421 /* ExampleForm.swift */,
 				A675DD0E2C18BA0B0006B421 /* ExampleList.swift */,
 				A675DD132C18C7EC0006B421 /* ExampleNavigation.swift */,
+				A675DD152C18CCCE0006B421 /* ExampleTabView.swift */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6A22CD62C0A61E000460E0F /* ExampleTextField.swift in Sources */,
+				A675DD162C18CCCE0006B421 /* ExampleTabView.swift in Sources */,
 				A69884932C10044800170E90 /* ExampleColorPicker.swift in Sources */,
 				A6A598072C091C8600C387E9 /* ContentView.swift in Sources */,
 				A69884972C10081B00170E90 /* ExampleLInk.swift in Sources */,
