@@ -14,6 +14,7 @@
 		A69884992C100B0C00170E90 /* ExampleToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69884982C100B0C00170E90 /* ExampleToggle.swift */; };
 		A698849B2C101ACC00170E90 /* ExampleStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A698849A2C101ACC00170E90 /* ExampleStepper.swift */; };
 		A698849D2C101C8000170E90 /* ExampleSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A698849C2C101C8000170E90 /* ExampleSlider.swift */; };
+		A698849F2C101F8700170E90 /* ExampleLazyVGrigLavzyHGrild.swift in Sources */ = {isa = PBXBuildFile; fileRef = A698849E2C101F8700170E90 /* ExampleLazyVGrigLavzyHGrild.swift */; };
 		A6A22CCA2C0951AD00460E0F /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A22CC92C0951AD00460E0F /* Icon.swift */; };
 		A6A22CCC2C09732A00460E0F /* PWState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A22CCB2C09732A00460E0F /* PWState.swift */; };
 		A6A22CCE2C0A5B0600460E0F /* ExampleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A22CCD2C0A5B0600460E0F /* ExampleLabel.swift */; };
@@ -57,6 +58,7 @@
 		A69884982C100B0C00170E90 /* ExampleToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleToggle.swift; sourceTree = "<group>"; };
 		A698849A2C101ACC00170E90 /* ExampleStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleStepper.swift; sourceTree = "<group>"; };
 		A698849C2C101C8000170E90 /* ExampleSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSlider.swift; sourceTree = "<group>"; };
+		A698849E2C101F8700170E90 /* ExampleLazyVGrigLavzyHGrild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleLazyVGrigLavzyHGrild.swift; sourceTree = "<group>"; };
 		A6A22CC92C0951AD00460E0F /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 		A6A22CCB2C09732A00460E0F /* PWState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWState.swift; sourceTree = "<group>"; };
 		A6A22CCD2C0A5B0600460E0F /* ExampleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleLabel.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 				A69884982C100B0C00170E90 /* ExampleToggle.swift */,
 				A698849A2C101ACC00170E90 /* ExampleStepper.swift */,
 				A698849C2C101C8000170E90 /* ExampleSlider.swift */,
+				A698849E2C101F8700170E90 /* ExampleLazyVGrigLavzyHGrild.swift */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				A6A22CD42C0A5EFB00460E0F /* ExampleButton.swift in Sources */,
 				A6A22CCA2C0951AD00460E0F /* Icon.swift in Sources */,
 				A698849B2C101ACC00170E90 /* ExampleStepper.swift in Sources */,
+				A698849F2C101F8700170E90 /* ExampleLazyVGrigLavzyHGrild.swift in Sources */,
 				A6A22CD82C0A647800460E0F /* ExampleTextEditor.swift in Sources */,
 				A698849D2C101C8000170E90 /* ExampleSlider.swift in Sources */,
 				A69884992C100B0C00170E90 /* ExampleToggle.swift in Sources */,
