@@ -14,6 +14,7 @@
 		A65DDF122C223976009AABBE /* CPEcommerceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DDF112C223976009AABBE /* CPEcommerceAppTests.swift */; };
 		A65DDF1C2C223976009AABBE /* CPEcommerceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DDF1B2C223976009AABBE /* CPEcommerceAppUITests.swift */; };
 		A65DDF1E2C223976009AABBE /* CPEcommerceAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DDF1D2C223976009AABBE /* CPEcommerceAppUITestsLaunchTests.swift */; };
+		A65DDF3A2C223EAB009AABBE /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A65DDF392C223EAB009AABBE /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A65DDF172C223976009AABBE /* CPEcommerceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPEcommerceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A65DDF1B2C223976009AABBE /* CPEcommerceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPEcommerceAppUITests.swift; sourceTree = "<group>"; };
 		A65DDF1D2C223976009AABBE /* CPEcommerceAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPEcommerceAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A65DDF392C223EAB009AABBE /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				A65DDF042C223976009AABBE /* Assets.xcassets */,
+				A65DDF392C223EAB009AABBE /* Colors.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65DDF3A2C223EAB009AABBE /* Colors.xcassets in Resources */,
 				A65DDF082C223976009AABBE /* Preview Assets.xcassets in Resources */,
 				A65DDF052C223976009AABBE /* Assets.xcassets in Resources */,
 			);

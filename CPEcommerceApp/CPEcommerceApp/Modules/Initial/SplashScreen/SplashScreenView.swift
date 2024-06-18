@@ -14,6 +14,7 @@ struct SplashScreenView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Splash Screen")
+                .foregroundStyle(.ecommerce)
         }
         .padding()
     }
