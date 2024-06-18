@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A65DDF012C223975009AABBE /* CPEcommerceAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DDF002C223975009AABBE /* CPEcommerceAppApp.swift */; };
-		A65DDF032C223975009AABBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DDF022C223975009AABBE /* ContentView.swift */; };
+		A65DDF032C223975009AABBE /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DDF022C223975009AABBE /* SplashScreenView.swift */; };
 		A65DDF052C223976009AABBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A65DDF042C223976009AABBE /* Assets.xcassets */; };
 		A65DDF082C223976009AABBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A65DDF072C223976009AABBE /* Preview Assets.xcassets */; };
 		A65DDF122C223976009AABBE /* CPEcommerceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DDF112C223976009AABBE /* CPEcommerceAppTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		A65DDEFD2C223975009AABBE /* CPEcommerceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPEcommerceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A65DDF002C223975009AABBE /* CPEcommerceAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPEcommerceAppApp.swift; sourceTree = "<group>"; };
-		A65DDF022C223975009AABBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A65DDF022C223975009AABBE /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		A65DDF042C223976009AABBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A65DDF072C223976009AABBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A65DDF0D2C223976009AABBE /* CPEcommerceAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPEcommerceAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,7 +166,8 @@
 		A65DDF2E2C223A91009AABBE /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				A65DDF332C223B8B009AABBE /* SplashScreen */,
+				A65DDF352C223C92009AABBE /* Initial */,
+				A65DDF362C223C9F009AABBE /* Home */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -202,9 +203,32 @@
 		A65DDF332C223B8B009AABBE /* SplashScreen */ = {
 			isa = PBXGroup;
 			children = (
-				A65DDF022C223975009AABBE /* ContentView.swift */,
+				A65DDF022C223975009AABBE /* SplashScreenView.swift */,
 			);
 			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		A65DDF342C223C75009AABBE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A65DDF352C223C92009AABBE /* Initial */ = {
+			isa = PBXGroup;
+			children = (
+				A65DDF332C223B8B009AABBE /* SplashScreen */,
+				A65DDF342C223C75009AABBE /* Login */,
+			);
+			path = Initial;
+			sourceTree = "<group>";
+		};
+		A65DDF362C223C9F009AABBE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,7 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A65DDF032C223975009AABBE /* ContentView.swift in Sources */,
+				A65DDF032C223975009AABBE /* SplashScreenView.swift in Sources */,
 				A65DDF012C223975009AABBE /* CPEcommerceAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
