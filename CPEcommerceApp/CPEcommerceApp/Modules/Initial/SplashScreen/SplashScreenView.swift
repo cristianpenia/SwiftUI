@@ -9,11 +9,11 @@ import SwiftUI
 
 struct SplashScreenView: View {
     
+    @State var showAlert: Bool = false
+    
     var body: some View {
-        
+
         ZStack {
-            
-            Color.background1App
             
             VStack {
                 
@@ -21,61 +21,21 @@ struct SplashScreenView: View {
                     .imageScale(.large)
                     .foregroundStyle(.titleApp)
                 
-                if #available(iOS 16.0, *) {
+                Button(action: {
+                    showAlert.toggle()
+                }, label: {
                     Text("Splash Screen")
                         .foregroundStyle(.titleApp)
-                        .font(.title)
-                        .bold()
-                } else {
-                    // Fallback on earlier versions
-                }
+                        .font(.title.weight(.semibold))
+                })
                 
                 Spacer()
             }
             .padding()
             
-            Color.backgroundAlert
-                .ignoresSafeArea()
-            
-            Group {
-                
-                RoundedRectangle(cornerRadius: 16)
-                    .frame(height: 480)
-                    .foregroundStyle(.backgroundApp)
-                
-                VStack(spacing: 48) {
-                    
-                    Image(systemName: "checkmark.circle.fill")
-                        .renderingMode(.template)
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 100)
-                        .foregroundStyle(.ecommerce)
-                    
-                    VStack(spacing: 24) {
-                        
-                        Text("New Password Set Successfully")
-                            .font(.title2.weight(.semibold))
-                            .multilineTextAlignment(.center)
-                        
-                        Text("Este es el cuerpo de la notificacion es importnaate dar espacio")
-                            .foregroundStyle(.descriptionApp)
-                        
-                        Button {
-                            
-                        } label: {
-                            Text("Go To Home")
-                                .frame(maxWidth: .infinity)
-                                .foregroundStyle(.white)
-                                .padding()
-                                .background(.ecommerce)
-                                .cornerRadius(8)
-                        }
-                    }
-                }
-                .padding(34)
+            if showAlert {
+                EcommersAlertView()
             }
-            .frame(width: 340)
         }
     }
 }

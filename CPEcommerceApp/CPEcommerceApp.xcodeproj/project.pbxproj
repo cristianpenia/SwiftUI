@@ -15,6 +15,7 @@
 		A65DDF1C2C223976009AABBE /* CPEcommerceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DDF1B2C223976009AABBE /* CPEcommerceAppUITests.swift */; };
 		A65DDF1E2C223976009AABBE /* CPEcommerceAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DDF1D2C223976009AABBE /* CPEcommerceAppUITestsLaunchTests.swift */; };
 		A65DDF3A2C223EAB009AABBE /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A65DDF392C223EAB009AABBE /* Colors.xcassets */; };
+		A65DDF3C2C227FC2009AABBE /* EcommersAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DDF3B2C227FC2009AABBE /* EcommersAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		A65DDF1B2C223976009AABBE /* CPEcommerceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPEcommerceAppUITests.swift; sourceTree = "<group>"; };
 		A65DDF1D2C223976009AABBE /* CPEcommerceAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPEcommerceAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A65DDF392C223EAB009AABBE /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		A65DDF3B2C227FC2009AABBE /* EcommersAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcommersAlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 		A65DDF322C223B17009AABBE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A65DDF3B2C227FC2009AABBE /* EcommersAlertView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65DDF3C2C227FC2009AABBE /* EcommersAlertView.swift in Sources */,
 				A65DDF032C223975009AABBE /* SplashScreenView.swift in Sources */,
 				A65DDF012C223975009AABBE /* CPEcommerceAppApp.swift in Sources */,
 			);
