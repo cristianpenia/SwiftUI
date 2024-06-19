@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:CPEcommerceApp/CPEcommerceApp.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:SwiftUIBeta/SwiftUIBeta.xcodeproj">
    </FileRef>
 </Workspace>

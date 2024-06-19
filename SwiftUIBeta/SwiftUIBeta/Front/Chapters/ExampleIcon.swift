@@ -7,22 +7,21 @@
 
 import SwiftUI
 
-struct Icon: View {
+struct ExampleIcon: View {
+    
     var body: some View {
+        
         Image(systemName: "cloud.rainbow.half.fill")
             .renderingMode(.template)
             .resizable()
             .scaledToFit()
             .frame(width: 200)
             .foregroundStyle(.green)
+        
         Text("hello")
     }
 }
 
 #Preview {
-    Icon()
+    ExampleIcon()
 }
-
-/*
- 
- */
