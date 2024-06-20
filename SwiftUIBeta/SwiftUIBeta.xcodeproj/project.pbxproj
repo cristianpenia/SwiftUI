@@ -13,6 +13,7 @@
 		A6558D542C2231D000F814C9 /* ExampleTapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6558D532C2231D000F814C9 /* ExampleTapGesture.swift */; };
 		A65DDFE32C249F1C009AABBE /* ExampleDragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DDFE22C249F1C009AABBE /* ExampleDragGesture.swift */; };
 		A65DDFE52C24A2E8009AABBE /* ExampleStateVSBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DDFE42C24A2E8009AABBE /* ExampleStateVSBinding.swift */; };
+		A65DDFE72C24A7F8009AABBE /* ExampleObservedObjectVSStateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DDFE62C24A7F8009AABBE /* ExampleObservedObjectVSStateObject.swift */; };
 		A675DD0D2C18B3650006B421 /* ExampleForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675DD0C2C18B3650006B421 /* ExampleForm.swift */; };
 		A675DD0F2C18BA0B0006B421 /* ExampleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675DD0E2C18BA0B0006B421 /* ExampleList.swift */; };
 		A675DD142C18C7EC0006B421 /* ExampleNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675DD132C18C7EC0006B421 /* ExampleNavigation.swift */; };
@@ -68,6 +69,7 @@
 		A6558D532C2231D000F814C9 /* ExampleTapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTapGesture.swift; sourceTree = "<group>"; };
 		A65DDFE22C249F1C009AABBE /* ExampleDragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleDragGesture.swift; sourceTree = "<group>"; };
 		A65DDFE42C24A2E8009AABBE /* ExampleStateVSBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleStateVSBinding.swift; sourceTree = "<group>"; };
+		A65DDFE62C24A7F8009AABBE /* ExampleObservedObjectVSStateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleObservedObjectVSStateObject.swift; sourceTree = "<group>"; };
 		A675DD0C2C18B3650006B421 /* ExampleForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleForm.swift; sourceTree = "<group>"; };
 		A675DD0E2C18BA0B0006B421 /* ExampleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleList.swift; sourceTree = "<group>"; };
 		A675DD132C18C7EC0006B421 /* ExampleNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleNavigation.swift; sourceTree = "<group>"; };
@@ -127,6 +129,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A65DDFE82C24A905009AABBE /* ExampleObservedObjectVSStateObject */ = {
+			isa = PBXGroup;
+			children = (
+				A65DDFE62C24A7F8009AABBE /* ExampleObservedObjectVSStateObject.swift */,
+			);
+			path = ExampleObservedObjectVSStateObject;
+			sourceTree = "<group>";
+		};
 		A6A22CC82C09257600460E0F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +231,7 @@
 				A6558D532C2231D000F814C9 /* ExampleTapGesture.swift */,
 				A65DDFE22C249F1C009AABBE /* ExampleDragGesture.swift */,
 				A65DDFE42C24A2E8009AABBE /* ExampleStateVSBinding.swift */,
+				A65DDFE82C24A905009AABBE /* ExampleObservedObjectVSStateObject */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -394,6 +405,7 @@
 				A6A598322C09229400C387E9 /* ExampleStackViews.swift in Sources */,
 				A6558D542C2231D000F814C9 /* ExampleTapGesture.swift in Sources */,
 				A6D7A8862C18F45200E2D830 /* ExampleFullScreenCoverAndSheet.swift in Sources */,
+				A65DDFE72C24A7F8009AABBE /* ExampleObservedObjectVSStateObject.swift in Sources */,
 				A65DDFE32C249F1C009AABBE /* ExampleDragGesture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
