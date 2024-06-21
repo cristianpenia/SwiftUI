@@ -19,6 +19,7 @@
 		A65DDFEF2C24C766009AABBE /* TwoEnviromentObjeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DDFEE2C24C766009AABBE /* TwoEnviromentObjeView.swift */; };
 		A65DDFF12C24C774009AABBE /* ThreeEnviromentObjeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DDFF02C24C774009AABBE /* ThreeEnviromentObjeView.swift */; };
 		A65DDFF32C250370009AABBE /* ExampleAppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DDFF22C250370009AABBE /* ExampleAppStorage.swift */; };
+		A65DDFFB2C251C25009AABBE /* ExampleSceneStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DDFFA2C251C25009AABBE /* ExampleSceneStorage.swift */; };
 		A675DD0D2C18B3650006B421 /* ExampleForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675DD0C2C18B3650006B421 /* ExampleForm.swift */; };
 		A675DD0F2C18BA0B0006B421 /* ExampleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675DD0E2C18BA0B0006B421 /* ExampleList.swift */; };
 		A675DD142C18C7EC0006B421 /* ExampleNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675DD132C18C7EC0006B421 /* ExampleNavigation.swift */; };
@@ -80,6 +81,7 @@
 		A65DDFEE2C24C766009AABBE /* TwoEnviromentObjeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoEnviromentObjeView.swift; sourceTree = "<group>"; };
 		A65DDFF02C24C774009AABBE /* ThreeEnviromentObjeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeEnviromentObjeView.swift; sourceTree = "<group>"; };
 		A65DDFF22C250370009AABBE /* ExampleAppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAppStorage.swift; sourceTree = "<group>"; };
+		A65DDFFA2C251C25009AABBE /* ExampleSceneStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSceneStorage.swift; sourceTree = "<group>"; };
 		A675DD0C2C18B3650006B421 /* ExampleForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleForm.swift; sourceTree = "<group>"; };
 		A675DD0E2C18BA0B0006B421 /* ExampleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleList.swift; sourceTree = "<group>"; };
 		A675DD132C18C7EC0006B421 /* ExampleNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleNavigation.swift; sourceTree = "<group>"; };
@@ -255,6 +257,7 @@
 				A65DDFE82C24A905009AABBE /* ExampleObservedObjectVSStateObject */,
 				A65DDFEB2C24C744009AABBE /* ExampleENVIRONMENTOBJECT. */,
 				A65DDFF22C250370009AABBE /* ExampleAppStorage.swift */,
+				A65DDFFA2C251C25009AABBE /* ExampleSceneStorage.swift */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -429,6 +432,7 @@
 				A6A22CD02C0A5C2B00460E0F /* ExampleText.swift in Sources */,
 				A6A22CCE2C0A5B0600460E0F /* ExampleLabel.swift in Sources */,
 				A675DD0F2C18BA0B0006B421 /* ExampleList.swift in Sources */,
+				A65DDFFB2C251C25009AABBE /* ExampleSceneStorage.swift in Sources */,
 				A675DD142C18C7EC0006B421 /* ExampleNavigation.swift in Sources */,
 				A6A598322C09229400C387E9 /* ExampleStackViews.swift in Sources */,
 				A6558D542C2231D000F814C9 /* ExampleTapGesture.swift in Sources */,
