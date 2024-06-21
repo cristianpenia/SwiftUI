@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-// indica cual es la primer pantalla al correr la app
 @main
 struct SwiftUIBetaApp: App {
+    
     var body: some Scene {
+        
         WindowGroup {
-//            ContentView()
-//            ExampleAppStorage()
-            ExampleSceneStorage()
+            
+            ContentView()
         }
     }
 }
