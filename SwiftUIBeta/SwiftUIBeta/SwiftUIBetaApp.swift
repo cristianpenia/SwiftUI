@@ -12,7 +12,8 @@ import SwiftUI
 struct SwiftUIBetaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            ExampleAppStorage()
         }
     }
 }

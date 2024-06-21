@@ -18,6 +18,7 @@
 		A65DDFED2C24C756009AABBE /* OneEnviromentObjetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DDFEC2C24C756009AABBE /* OneEnviromentObjetView.swift */; };
 		A65DDFEF2C24C766009AABBE /* TwoEnviromentObjeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DDFEE2C24C766009AABBE /* TwoEnviromentObjeView.swift */; };
 		A65DDFF12C24C774009AABBE /* ThreeEnviromentObjeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DDFF02C24C774009AABBE /* ThreeEnviromentObjeView.swift */; };
+		A65DDFF32C250370009AABBE /* ExampleAppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DDFF22C250370009AABBE /* ExampleAppStorage.swift */; };
 		A675DD0D2C18B3650006B421 /* ExampleForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675DD0C2C18B3650006B421 /* ExampleForm.swift */; };
 		A675DD0F2C18BA0B0006B421 /* ExampleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675DD0E2C18BA0B0006B421 /* ExampleList.swift */; };
 		A675DD142C18C7EC0006B421 /* ExampleNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675DD132C18C7EC0006B421 /* ExampleNavigation.swift */; };
@@ -78,6 +79,7 @@
 		A65DDFEC2C24C756009AABBE /* OneEnviromentObjetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneEnviromentObjetView.swift; sourceTree = "<group>"; };
 		A65DDFEE2C24C766009AABBE /* TwoEnviromentObjeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoEnviromentObjeView.swift; sourceTree = "<group>"; };
 		A65DDFF02C24C774009AABBE /* ThreeEnviromentObjeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeEnviromentObjeView.swift; sourceTree = "<group>"; };
+		A65DDFF22C250370009AABBE /* ExampleAppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAppStorage.swift; sourceTree = "<group>"; };
 		A675DD0C2C18B3650006B421 /* ExampleForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleForm.swift; sourceTree = "<group>"; };
 		A675DD0E2C18BA0B0006B421 /* ExampleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleList.swift; sourceTree = "<group>"; };
 		A675DD132C18C7EC0006B421 /* ExampleNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleNavigation.swift; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 				A65DDFE42C24A2E8009AABBE /* ExampleStateVSBinding.swift */,
 				A65DDFE82C24A905009AABBE /* ExampleObservedObjectVSStateObject */,
 				A65DDFEB2C24C744009AABBE /* ExampleENVIRONMENTOBJECT. */,
+				A65DDFF22C250370009AABBE /* ExampleAppStorage.swift */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				A6A598072C091C8600C387E9 /* ContentView.swift in Sources */,
 				A65DDFEF2C24C766009AABBE /* TwoEnviromentObjeView.swift in Sources */,
 				A69884972C10081B00170E90 /* ExampleLInk.swift in Sources */,
+				A65DDFF32C250370009AABBE /* ExampleAppStorage.swift in Sources */,
 				A675DD0D2C18B3650006B421 /* ExampleForm.swift in Sources */,
 				A69884912C10017E00170E90 /* ExampleDatePicker.swift in Sources */,
 				A6A598052C091C8600C387E9 /* SwiftUIBetaApp.swift in Sources */,
