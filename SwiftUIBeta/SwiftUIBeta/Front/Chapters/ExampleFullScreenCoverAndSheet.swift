@@ -23,8 +23,8 @@ struct ExampleFullScreenCoverAndSheet: View {
                 Text("OK")
             }
         }
-        .sheet(isPresented: $isPresented,
-//        .fullScreenCover(isPresented: $isPresented,
+//        .sheet(isPresented: $isPresented,
+        .fullScreenCover(isPresented: $isPresented,
                          onDismiss: { isPresented = false },
                          content: {
             ZStack {
