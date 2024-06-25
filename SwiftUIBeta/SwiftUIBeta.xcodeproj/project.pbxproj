@@ -49,6 +49,7 @@
 		A6A598222C091C8B00C387E9 /* SwiftUIBetaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A598212C091C8B00C387E9 /* SwiftUIBetaUITestsLaunchTests.swift */; };
 		A6A598302C09226100C387E9 /* ExampleImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A5982F2C09226100C387E9 /* ExampleImages.swift */; };
 		A6A598322C09229400C387E9 /* ExampleStackViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A598312C09229400C387E9 /* ExampleStackViews.swift */; };
+		A6C3F1A62C2A9176003791DE /* ExampleSwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C3F1A52C2A9176003791DE /* ExampleSwipeActions.swift */; };
 		A6D7A8862C18F45200E2D830 /* ExampleFullScreenCoverAndSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D7A8852C18F45200E2D830 /* ExampleFullScreenCoverAndSheet.swift */; };
 /* End PBXBuildFile section */
 
@@ -115,6 +116,7 @@
 		A6A598212C091C8B00C387E9 /* SwiftUIBetaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBetaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A6A5982F2C09226100C387E9 /* ExampleImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleImages.swift; sourceTree = "<group>"; };
 		A6A598312C09229400C387E9 /* ExampleStackViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleStackViews.swift; sourceTree = "<group>"; };
+		A6C3F1A52C2A9176003791DE /* ExampleSwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwipeActions.swift; sourceTree = "<group>"; };
 		A6D7A8852C18F45200E2D830 /* ExampleFullScreenCoverAndSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFullScreenCoverAndSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -261,6 +263,7 @@
 				A65DDFF22C250370009AABBE /* ExampleAppStorage.swift */,
 				A65DDFFA2C251C25009AABBE /* ExampleSceneStorage.swift */,
 				A65DDFFC2C2533A7009AABBE /* ExampleAsyncImage.swift */,
+				A6C3F1A52C2A9176003791DE /* ExampleSwipeActions.swift */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				A6A22CD82C0A647800460E0F /* ExampleTextEditor.swift in Sources */,
 				A698849D2C101C8000170E90 /* ExampleSlider.swift in Sources */,
 				A69884992C100B0C00170E90 /* ExampleToggle.swift in Sources */,
+				A6C3F1A62C2A9176003791DE /* ExampleSwipeActions.swift in Sources */,
 				A6A22CD02C0A5C2B00460E0F /* ExampleText.swift in Sources */,
 				A6A22CCE2C0A5B0600460E0F /* ExampleLabel.swift in Sources */,
 				A675DD0F2C18BA0B0006B421 /* ExampleList.swift in Sources */,
