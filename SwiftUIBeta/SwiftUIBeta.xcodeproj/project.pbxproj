@@ -50,6 +50,9 @@
 		A6A598302C09226100C387E9 /* ExampleImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A5982F2C09226100C387E9 /* ExampleImages.swift */; };
 		A6A598322C09229400C387E9 /* ExampleStackViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A598312C09229400C387E9 /* ExampleStackViews.swift */; };
 		A6C3F1A62C2A9176003791DE /* ExampleSwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C3F1A52C2A9176003791DE /* ExampleSwipeActions.swift */; };
+		A6C3F1A82C2B343E003791DE /* ExampleGeometryReaderProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C3F1A72C2B343E003791DE /* ExampleGeometryReaderProxy.swift */; };
+		A6C3F1AC2C2B5301003791DE /* ExampleGeometryReaderStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C3F1AB2C2B5301003791DE /* ExampleGeometryReaderStacks.swift */; };
+		A6C3F1AE2C2B547D003791DE /* ExampleGeometryReaderScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C3F1AD2C2B547D003791DE /* ExampleGeometryReaderScrollView.swift */; };
 		A6D7A8862C18F45200E2D830 /* ExampleFullScreenCoverAndSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D7A8852C18F45200E2D830 /* ExampleFullScreenCoverAndSheet.swift */; };
 /* End PBXBuildFile section */
 
@@ -117,6 +120,9 @@
 		A6A5982F2C09226100C387E9 /* ExampleImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleImages.swift; sourceTree = "<group>"; };
 		A6A598312C09229400C387E9 /* ExampleStackViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleStackViews.swift; sourceTree = "<group>"; };
 		A6C3F1A52C2A9176003791DE /* ExampleSwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwipeActions.swift; sourceTree = "<group>"; };
+		A6C3F1A72C2B343E003791DE /* ExampleGeometryReaderProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleGeometryReaderProxy.swift; sourceTree = "<group>"; };
+		A6C3F1AB2C2B5301003791DE /* ExampleGeometryReaderStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleGeometryReaderStacks.swift; sourceTree = "<group>"; };
+		A6C3F1AD2C2B547D003791DE /* ExampleGeometryReaderScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleGeometryReaderScrollView.swift; sourceTree = "<group>"; };
 		A6D7A8852C18F45200E2D830 /* ExampleFullScreenCoverAndSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFullScreenCoverAndSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -264,6 +270,7 @@
 				A65DDFFA2C251C25009AABBE /* ExampleSceneStorage.swift */,
 				A65DDFFC2C2533A7009AABBE /* ExampleAsyncImage.swift */,
 				A6C3F1A52C2A9176003791DE /* ExampleSwipeActions.swift */,
+				A6C3F1A92C2B52E4003791DE /* ExampleGeometryReader */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -276,6 +283,16 @@
 				A6A22CC82C09257600460E0F /* Resources */,
 			);
 			path = Front;
+			sourceTree = "<group>";
+		};
+		A6C3F1A92C2B52E4003791DE /* ExampleGeometryReader */ = {
+			isa = PBXGroup;
+			children = (
+				A6C3F1A72C2B343E003791DE /* ExampleGeometryReaderProxy.swift */,
+				A6C3F1AB2C2B5301003791DE /* ExampleGeometryReaderStacks.swift */,
+				A6C3F1AD2C2B547D003791DE /* ExampleGeometryReaderScrollView.swift */,
+			);
+			path = ExampleGeometryReader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -429,9 +446,11 @@
 				A698849B2C101ACC00170E90 /* ExampleStepper.swift in Sources */,
 				A65DDFED2C24C756009AABBE /* OneEnviromentObjetView.swift in Sources */,
 				A6558D4E2C221E7E00F814C9 /* ExampleAlert.swift in Sources */,
+				A6C3F1AE2C2B547D003791DE /* ExampleGeometryReaderScrollView.swift in Sources */,
 				A65DDFEA2C24C398009AABBE /* ExampleENVIRONMENTOBJECT.swift in Sources */,
 				A698849F2C101F8700170E90 /* ExampleLazyVGrigLavzyHGrild.swift in Sources */,
 				A65DDFFD2C2533A7009AABBE /* ExampleAsyncImage.swift in Sources */,
+				A6C3F1A82C2B343E003791DE /* ExampleGeometryReaderProxy.swift in Sources */,
 				A6558D502C22228F00F814C9 /* ExampleActionSheet.swift in Sources */,
 				A6A22CD82C0A647800460E0F /* ExampleTextEditor.swift in Sources */,
 				A698849D2C101C8000170E90 /* ExampleSlider.swift in Sources */,
@@ -442,6 +461,7 @@
 				A675DD0F2C18BA0B0006B421 /* ExampleList.swift in Sources */,
 				A65DDFFB2C251C25009AABBE /* ExampleSceneStorage.swift in Sources */,
 				A675DD142C18C7EC0006B421 /* ExampleNavigation.swift in Sources */,
+				A6C3F1AC2C2B5301003791DE /* ExampleGeometryReaderStacks.swift in Sources */,
 				A6A598322C09229400C387E9 /* ExampleStackViews.swift in Sources */,
 				A6558D542C2231D000F814C9 /* ExampleTapGesture.swift in Sources */,
 				A6D7A8862C18F45200E2D830 /* ExampleFullScreenCoverAndSheet.swift in Sources */,
