@@ -14,6 +14,10 @@
 		A6C3F1D12C2B84FA003791DE /* CPCalculatoraAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C3F1D02C2B84FA003791DE /* CPCalculatoraAppTests.swift */; };
 		A6C3F1DB2C2B84FA003791DE /* CPCalculatoraAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C3F1DA2C2B84FA003791DE /* CPCalculatoraAppUITests.swift */; };
 		A6C3F1DD2C2B84FA003791DE /* CPCalculatoraAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C3F1DC2C2B84FA003791DE /* CPCalculatoraAppUITestsLaunchTests.swift */; };
+		A6C3F1ED2C2B9AD2003791DE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C3F1EC2C2B9AD2003791DE /* Model.swift */; };
+		A6C3F1EF2C2B9B7D003791DE /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C3F1EE2C2B9B7D003791DE /* Colors.swift */; };
+		A6C3F1F12C2B9C1F003791DE /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C3F1F02C2B9C1F003791DE /* Matrix.swift */; };
+		A6C3F1F32C2BA528003791DE /* VerticalButtonStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C3F1F22C2BA528003791DE /* VerticalButtonStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		A6C3F1D62C2B84FA003791DE /* CPCalculatoraAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPCalculatoraAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C3F1DA2C2B84FA003791DE /* CPCalculatoraAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPCalculatoraAppUITests.swift; sourceTree = "<group>"; };
 		A6C3F1DC2C2B84FA003791DE /* CPCalculatoraAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPCalculatoraAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6C3F1EC2C2B9AD2003791DE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A6C3F1EE2C2B9B7D003791DE /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A6C3F1F02C2B9C1F003791DE /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		A6C3F1F22C2BA528003791DE /* VerticalButtonStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalButtonStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +155,10 @@
 			isa = PBXGroup;
 			children = (
 				A6C3F1C12C2B84F7003791DE /* ContentView.swift */,
+				A6C3F1EC2C2B9AD2003791DE /* Model.swift */,
+				A6C3F1EE2C2B9B7D003791DE /* Colors.swift */,
+				A6C3F1F02C2B9C1F003791DE /* Matrix.swift */,
+				A6C3F1F22C2BA528003791DE /* VerticalButtonStack.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -281,6 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C3F1F32C2BA528003791DE /* VerticalButtonStack.swift in Sources */,
+				A6C3F1ED2C2B9AD2003791DE /* Model.swift in Sources */,
+				A6C3F1F12C2B9C1F003791DE /* Matrix.swift in Sources */,
+				A6C3F1EF2C2B9B7D003791DE /* Colors.swift in Sources */,
 				A6C3F1C22C2B84F7003791DE /* ContentView.swift in Sources */,
 				A6C3F1C02C2B84F7003791DE /* CPCalculatoraAppApp.swift in Sources */,
 			);
