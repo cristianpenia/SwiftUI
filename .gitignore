@@ -12,7 +12,8 @@ xcuserdata
 *.xccheckout
 *.moved-aside
 DerivedData
-.xcuserstate
+*.xcuserstate
+xcshareddata/xcschemes/xcschememanagement.plist
 
 # Swift Package Manager
 .build/
