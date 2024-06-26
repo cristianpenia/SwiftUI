@@ -13,7 +13,8 @@ xcuserdata
 *.moved-aside
 DerivedData
 *.xcuserstate
-xcshareddata/xcschemes/xcschememanagement.plist
+xcuserdata/**/UserInterfaceState.xcuserstate
+xcuserdata/**/xcschemes/xcschememanagement.plist
 
 # Swift Package Manager
 .build/
