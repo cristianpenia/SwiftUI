@@ -9,33 +9,23 @@ import SwiftUI
 
 struct SplashScreenView: View {
     
-    @State var showAlert: Bool = false
-    
     var body: some View {
 
         ZStack {
             
-            VStack {
+            ZStack {
                 
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundStyle(.titleApp)
+                Image("e-commerce")
                 
-                Button(action: {
-                    showAlert.toggle()
-                }, label: {
-                    Text("Splash Screen")
-                        .foregroundStyle(.titleApp)
-                        .font(.title.weight(.semibold))
-                })
-                
-                Spacer()
+                VStack {
+                    
+                    Spacer()
+                    
+                    Image("e-commerce-points")
+                }
             }
             .padding()
             
-            if showAlert {
-                EcommersAlertView()
-            }
         }
     }
 }
